@@ -28,6 +28,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 	org.elixir.device=nash
 
 # Boot Animtion
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 
 
