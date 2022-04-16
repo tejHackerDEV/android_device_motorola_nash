@@ -1,8 +1,9 @@
-# Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
+
+# Inherit some common VoltageOS stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Vendor blobs
 $(call inherit-product, vendor/motorola/nash/nash-vendor.mk)
@@ -30,7 +31,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := nash
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := Moto Z (2)
-PRODUCT_NAME := lineage_nash
+PRODUCT_NAME := voltage_nash
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=nash \

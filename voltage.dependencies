@@ -1,17 +1,26 @@
 [
   {
+    "remote": "tejHackerDEV",
     "repository": "android_kernel_motorola_msm8998",
     "target_path": "kernel/motorola/msm8998"
   },
   {
+    "remote": "tejHackerDEV",
+    "repository": "proprietary_vendor_motorola_nash",
+    "target_path": "vendor/motorola/nash"
+  },
+  {
+    "remote": "LineageOS",
     "repository": "android_external_bson",
     "target_path": "external/bson"
   },
   {
+    "remote": "LineageOS",
     "repository": "android_hardware_motorola",
     "target_path": "hardware/motorola"
   },
   {
+    "remote": "LineageOS",
     "repository": "android_system_qcom",
     "target_path": "system/qcom"
   }
